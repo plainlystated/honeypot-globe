@@ -30,7 +30,7 @@
 
       }
 
-      #currentInfo {
+      #moreInfo {
         width: 270px;
         position: absolute;
         left: 20px;
@@ -66,13 +66,12 @@
         padding: 10px;
       }
 
-      .year {
+      #moreInfo span {
         font: 16px Georgia;
         line-height: 26px;
         height: 30px;
-        text-align: center;
         float: left;
-        width: 90px;
+        width: 180px;
         color: rgba(255, 255, 255, 0.4);
 
         cursor: pointer;
@@ -110,7 +109,12 @@
   </div>
 
   <div id="title">
-    SSH honeypot login attempts across a few boxes
+    SSH Honeypot login attempts
+  </div>
+
+  <div id="moreInfo">
+    <span><a href="http://www.plainlystated.com">About the project</a></span>
+    <span><a href="https://github.com/honeypot-globe/data">View the data</a></span>
   </div>
 
   <a id="ce" href="http://www.chromeexperiments.com/globe">
